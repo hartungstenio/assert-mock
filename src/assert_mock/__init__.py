@@ -2,9 +2,15 @@
 #
 # SPDX-License-Identifier: MIT
 
+from typing import Final
+from unittest import mock
+
 __all__ = [
+    "Any",
     "AnyOfType",
 ]
+
+Any: Final = mock.ANY
 
 
 class AnyOfType:
